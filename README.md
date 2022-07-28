@@ -1,2 +1,2 @@
-# fishCoin
-https://github.com/Daviddov/fishCoin
+# [FishCoin]
+https://daviddov.github.io/fishCoin/

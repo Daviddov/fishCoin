@@ -167,7 +167,7 @@ function draw() {
     ctx.clearRect(0, 0, screenWidth, screenHeight);
     ctx.drawImage(sprites.background, 0, 0, screenWidth, screenHeight);
     ctx.font = '30px cursive';
-    ctx.fillText(🧍‍♂️: ${playerName}  💖: ${lives} `Level: ${level} 💰: ${pearls}`, 700, 50);
+    ctx.fillText(`🧍‍♂️: ${playerName}  💖: ${lives} Level: ${level} 💰: ${pearls}`, 15, 50);
     ctx.drawImage(sprites.player, player.x, player.y, player.width, player.height);
     ctx.drawImage(sprites.flag, flag.x, flag.y, flag.width, flag.height);
     ctx.drawImage(sprites.pearl, pearl.x, pearl.y, pearl.width, pearl.height);
